@@ -18,7 +18,7 @@ function johnLennonFacts(facts) {
     //console.log("${facts[i]} !!!")
     new_facts.push(ele);
   }
-  //return new_facts;
+  return new_facts;
 }
 
 function iLoveTheBeatles(num) {
