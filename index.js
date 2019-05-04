@@ -13,7 +13,7 @@ function johnLennonFacts(facts) {
   while (var i = 0; (i < facts.length); i++){
     new_facts[i] = facts[i] + "!!!"
   }
-  return facts
+  return new_facts
 }
 
 function iLoveTheBeatles(num) {
