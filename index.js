@@ -13,7 +13,7 @@ function johnLennonFacts(facts) {
   while (var i = 0; i < facts.length; i++) {
     console.log("hi")//new_facts[i] = facts[i] + "!!!";
   }
-  return new_facts;
+  //return new_facts;
 }
 
 function iLoveTheBeatles(num) {
