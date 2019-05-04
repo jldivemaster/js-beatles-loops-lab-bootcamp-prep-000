@@ -1,11 +1,18 @@
 // add solution here
 function theBeatlesPlay(musicians, instruments) {
   var array = [];
-  for ( i = 0; i < musicians.length; i++) {
+  for (var i = 0; i < musicians.length; i++) {
     str = ("${musicians[i]} plays ${instruments[i]}")
     array.push(str);
   }
   return array;
+}
+
+function johnLennonFacts(facts) {
+  while (var i = 0; i < facts.length; i++){
+    facts[i] = "${facts[i]} !!!"
+  }
+  return facts
 }
 
 function iLoveTheBeatles(num) {
