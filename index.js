@@ -1,12 +1,12 @@
 // add solution here
-// function theBeatlesPlay(musicians, instruments) {
-//   var array = [];
-//   for ( i = 0; i < musicians.length; i++) {
-//     str = ("$(musicians[i]) plays the $(instruments[i])")
-//     array.push(str);
-//   }
-//   return array;
-// }
+function theBeatlesPlay(musicians, instruments) {
+  var array = [];
+  for ( i = 0; i < musicians.length; i++) {
+    str = ("$(musicians[i]) plays the $(instruments[i])")
+    array.push(str);
+  }
+  return array;
+}
 
 function iLoveTheBeatles(num) {
   var array = [];
